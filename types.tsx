@@ -34,7 +34,7 @@ export interface Price {
   products?: Products;
 }
 
-export interface Subcription {
+export interface Subscription {
   id: string;
   user_id: string;
   status?: Stripe.Subscription.Status;
